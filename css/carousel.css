@@ -6,8 +6,15 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
-
-
+h1{
+  
+  color: OrangeRed;
+  background-color: white;
+}
+.centrado{
+  text-align:center;
+  
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -17,9 +24,14 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 20;
+  z-index: 50;
 }
-
+body 
+{
+  background:  #FF8C00;
+  
+  
+}
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
@@ -41,6 +53,7 @@ body {
 .carousel {
   height: 500px;
   margin-bottom: 60px;
+  margin-top: -21px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -59,7 +72,18 @@ body {
   min-width: 100%;
   height: 500px;
 }
-
+.carousel p{
+  
+  background-color: Gray;
+  
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -92,7 +116,25 @@ body {
   letter-spacing: -1px;
 }
 
-
+/*BOLAS CHULAS
+--------------------------------------------------*/
+.destacados{
+    padding: 20px 0;
+  text-align: center;
+}
+.destacados > div > div{
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.2s;
+}
+.destacados > div:hover > div{
+	margin-top: -10px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+	background: rgba(200, 200, 200, 0.1);
+	transition: 0.5s;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
